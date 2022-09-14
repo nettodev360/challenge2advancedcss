@@ -15,9 +15,9 @@
         <nav>
             <ul>
                 <li><a href="#Home">Home</a></li>
-                <li><a href="#Work">Work</a></li>
-                <li><a href="#Contact">Contact</a></li>
-                <li><a href="#Resume">Resume</a></li>
+                <li><a onclick="document.getElementById('work-content').scrollIntoView();" href="#Work">Work</a></li>
+                <li><a onclick="document.getElementById('contact').scrollIntoView();"<a href="#Contact">Contact</a></li>
+                <li><a onclick="document.getElementById('resume').scrollIntoView();"<a href="#Resume">Resume</a></li>
             </ul>
         </nav>
      </header>
@@ -36,37 +36,50 @@
     </article>
     
     
-    <aside class="side">
+    <section id="work">
+    <div class="side">
         <h2 id="work">Work</h2>
-    </aside>
+    </div>
 
-    <section class="work-content">
-        <div class="projects">
-            <li> <video src="./assets/images/weather.mp4" alt="weather app">
-                <a href="https://gifer.com/en/RS5V"></a>
+    <!-- <section id="work-content"> -->
+        <div id="work-content">
+            <li> <a href="https://gifer.com/en/RS5V"><video src="./assets/images/weather.mp4" alt="weather app">
+                </a>
             </li>
-            <li> <img src="./assets/images/Calculator.gif" alt="calculator app">
-                <a href="https://gfycat.com/gifs/search/calculator"></a>
+            <li> <a href="https://gfycat.com/gifs/search/calculator"> <img src="./assets/images/Calculator.gif" alt="calculator app">
+                </a>
             </li>            
-            <li> <img src="./assets/images/CompleteShallowFlyingsquirrel-size_restricted.gif" alt="online shopping cart">
-                <a href="https://gfycat.com/completeshallowflyingsquirrel"></a>
+            <li> <a href="https://gfycat.com/completeshallowflyingsquirrel"><img src="./assets/images/CompleteShallowFlyingsquirrel-size_restricted.gif" alt="online shopping cart">
+                </a>
             </li>            
-            <li> <img src="./assets/images/AccurateRegularBunting-size_restricted.gif" alt="Color gradient selection">
-                <a href="https://gfycat.com/gifs/search/gradient+background"></a>
+            <li> <a href="https://gfycat.com/gifs/search/gradient+background"><img src="./assets/images/AccurateRegularBunting-size_restricted.gif" alt="Color gradient selection">
+                </a>
             </li>
         </div>
     </section>
 
+
+    <section id="contact">
+    <div class="side">
+        <h3 id="info">Contact</h3>
+        <ul id="connect">
+            <li>Contact: 647-111-1111</li>
+            <li><a href="https://github.com/nettodev360">Git Hub</a> </li>
+            <li><a href="netto.dev360@gmail.com">Email</a></li>
+        </ul>
+
+    </div>
+    </section>
     
-    <aside class="side">
-        <h2 id="contact">Contact</h2>
-    </aside>
+    <!-- <br> -->
+
+    <!-- <section id="resume"> -->
+    <!-- <div class="side"> -->
+        <!-- <h3 id="linkedin">Resume</h3> -->
+    <!-- </div> -->
+    <!-- </section> -->
     
-    <aside class="side">
-        <h2 id="resume">Resume</h2>
-    </aside>
-    
-    <footer>This is a footer</footer>
+    <!-- <footer>This is a footer</footer> --> 
 
 
     

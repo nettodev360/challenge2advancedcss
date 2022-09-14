@@ -74,7 +74,24 @@ ul {
     width: 160px;
   }
 
-  .work-content li {
+  .side {
+    display: inline-block;
+    width:160px ;
+  }
+
+  #work {
+    margin-top: 60px;
+  }
+
+  #work-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0%;
+    padding: 0%;
+  }
+
+  #work-content li {
     /* transform: rotate(10deg); */
     display: flex;
     flex-wrap: wrap;
@@ -85,21 +102,15 @@ ul {
     padding: 0px;
   }
 
-  .work-content li a{
-    display: none;
+  #contact {
+    margin-top: 40px;
   }
 
-  /* #contact {
-    
+  #connect {
+    border: none;
+    background-color: none;
   }
 
-  #resume {
-
-  } */
-
-  /* .projects {
-    display: grid;
-  } */
 
 
 
