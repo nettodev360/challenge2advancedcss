@@ -57,16 +57,19 @@ ul {
   #main {
     width: 250px;
     float: left;
-    margin-left: 20px;
-    padding: 0%;
-    border-radius: 90px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 20px;
   }
+
 
   .bio {
     display: flex;
     justify-content: center;
     text-align: center;
     margin-top: 60px;
+    border-style: dotted 2px whitesmoke;
+    border-radius: 30px;
   }
 
   h2 {
@@ -81,6 +84,7 @@ ul {
 
   #work {
     margin-top: 60px;
+    text-align:justify;
   }
 
   #work-content {
@@ -102,15 +106,21 @@ ul {
     padding: 0px;
   }
 
-  #contact {
-    margin-top: 40px;
-  }
+  #contact #info .side a{
+    margin-top: 10px;
+    margin=left: 20px;
+    border: none;
+    width: 0%;
+ }
+
+ .side{
+    margin: 0%;
+    padding: 0%;
+ }
 
   #connect {
-    border: none;
-    background-color: none;
+    display:flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-evenly;
+
   }
-
-
-
-
