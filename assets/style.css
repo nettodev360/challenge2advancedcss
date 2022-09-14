@@ -12,12 +12,19 @@ body {
     display: inline;
     font-size: 40px;
     font-style:italic;
-    font-weight: bolder;
-    color: slategrey;
+    /* font-weight: bolder; */
+    color: whitesmoke;
     height: 25px;
     width: 60px;
     margin-top: 25px;
-    text-shadow: 2px 2px whitesmoke;
+    /* text-shadow: 2px 2px whitesmoke; */
+    /* border: 2px;
+    border-style: dotted 2px white; */
+}
+
+h1 {
+    font-size: 30px;
+    margin-left: 10px;  
 }
 
 nav {
@@ -63,13 +70,13 @@ ul {
   }
 
 
-  .bio {
-    display: flex;
+  #bio {
+    /* display: flex; */
     justify-content: center;
     text-align: center;
-    margin-top: 60px;
-    border-style: dotted 2px whitesmoke;
-    border-radius: 30px;
+    margin-top: 240px;
+    /* border-style: dotted 2px whitesmoke;
+    border-radius: 30px; */
   }
 
   h2 {
@@ -83,8 +90,9 @@ ul {
   }
 
   #work {
-    margin-top: 60px;
-    text-align:justify;
+    margin-top: 100px;
+    text-align:left;
+    /* border-style: dotted 2px white; */
   }
 
   #work-content {
@@ -95,8 +103,13 @@ ul {
     padding: 0%;
   }
 
+  #display {
+    /* text-decoration: underline dotted 2px white; */
+    font-size: 30px;
+    margin-left: 10px;   
+  }
+
   #work-content li {
-    /* transform: rotate(10deg); */
     display: flex;
     flex-wrap: wrap;
     justify-content:space-around;
@@ -106,12 +119,16 @@ ul {
     padding: 0px;
   }
 
-  #contact #info .side a{
+  #contact #info .side li a{
     margin-top: 10px;
-    margin=left: 20px;
+    margin-left: 20px;
     border: none;
     width: 0%;
  }
+
+ /* #contact #info .side li{
+    list-style-type: none;
+ } */
 
  .side{
     margin: 0%;
@@ -123,4 +140,10 @@ ul {
     /* flex-wrap: wrap; */
     justify-content: space-evenly;
 
+  }
+
+  @media screen and (max-width: 768px) {
+    .left, .main, .right {
+      width: 100%; 
+    }
   }
