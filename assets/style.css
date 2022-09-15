@@ -186,23 +186,31 @@ ul {
     margin-left: 10px;
     margin-right: 10px;
     padding: 0%;
-    display: inline;
-    flex-wrap: unset;
+    display: flex;
+    justify-content: space-between;
+    /* flex-flow: row wrap; */
     margin-top: 2%;
+    margin-right: 20px;
     list-style-type: none;
   }
 
-  .contact ul {
+  span > a {
+    margin-right: 20px;
+  }
+
+  /* .contact ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     border-style: none;
-  }
+  } */
 
   footer{
     text-align: center;
-    margin-top: 20px;
+    margin-top: 40px;
     margin-bottom: 10px;
+    display: flex;
+    align-self: center;
     position:absolute;
   }
